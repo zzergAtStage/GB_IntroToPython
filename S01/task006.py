@@ -12,9 +12,10 @@
 ticket_number = int(input("Input number of ticket (now we'll check it!):"))
 part_one = 0
 part_two = 0
+range_of_middle_digit = 3
 current_digit = 0
 while ticket_number > 0:
-    if current_digit < 3:
+    if current_digit < range_of_middle_digit:
         part_one += ticket_number % 10
     else:
         part_two += ticket_number % 10
