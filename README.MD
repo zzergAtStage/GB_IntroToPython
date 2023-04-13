@@ -81,3 +81,10 @@
 <p> <a href="S01\task006.py" title="Задача 6"> task006.py </a></p>
 <p> <a href="S01\task008.py" title="Задача 8"> task008.py </a></p>
 </details>
+
+<details>
+<summary><h2>Seminar 02 (Урок 2. Циклы (for, while))</h2></summary>
+
+<p> <a href="S02\task010.py" title="Задача 10"> task010.py </a></p>
+
+</details>
