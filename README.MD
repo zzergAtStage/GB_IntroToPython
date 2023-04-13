@@ -86,5 +86,6 @@
 <summary><h2>Seminar 02 (Урок 2. Циклы (for, while))</h2></summary>
 
 <p> <a href="S02\task010.py" title="Задача 10"> task010.py </a></p>
-
+<p> <a href="S02\task012.py" title="Задача 12"> task012.py </a></p>
+<p> <a href="S02\task014.py" title="Задача 14"> task014.py </a></p>
 </details>
