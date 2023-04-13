@@ -17,17 +17,15 @@ print("{0} + {1}".format(X,Y), " = ", (X + Y))
 print("{0} * {1}".format(X,Y), " = ", (X * Y))
 
 #generating an answer by loop
-is_find = False
+isFound = False
 i = 0
-while i <= right_range and not is_find:
+while i <= right_range and not isFound:
     y= 0
-    while y <= right_range and not is_find:
+    while y <= right_range and not isFound:
         if (i+y == adding_secret_nums) and (i*y == multiplying_secret_nums): 
             print("Secret numbers are:{0},{1}".format(i,y))
-            is_find = True
-            breakpoint
+            isFound = True
         y += 1
     i += 1
-if is_find :
-    None 
-else:print("Something went wrong...")
+if not isFound :
+  print("Something went wrong...")
