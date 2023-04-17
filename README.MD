@@ -89,3 +89,10 @@
 <p> <a href="S02\task012.py" title="Задача 12"> task012.py </a></p>
 <p> <a href="S02\task014.py" title="Задача 14"> task014.py </a></p>
 </details>
+
+<details>
+<summary>Seminar 03 (Урок 3. Списки и словари)</summary>
+
+<p> <a href="S02\task010.py" title="Задача 10"> task010.py </a></p>
+
+</details>
