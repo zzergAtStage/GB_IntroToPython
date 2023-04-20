@@ -74,6 +74,14 @@
 </details>
 
 <details>
+<summary><h2>Class 03 (Lectures Урок 3. Функции, рекурсия, алгоритмы)</h2></summary>
+
+<!-- <p> <a href="./" title="title"> taskNN.Prorgam.sc </a></p> -->
+</details>
+
+
+
+<details>
 <summary><h2>Seminar 01 (Урок 1. Ввод-Вывод, операторы ветвления) </h2></summary>
 
 <p> <a href="./S01/task002.py" title="Задача 2"> task002.py </a></p>
