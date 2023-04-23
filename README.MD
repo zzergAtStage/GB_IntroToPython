@@ -107,3 +107,24 @@ Solutions:
 <p> <a href="S03\task020.py" title="Задача 20"> task020.py </a> Напишите программу, которая вычисляет стоимость введенного пользователем слова.</p>
 
 </details>
+
+
+<details>
+<summary><h2>S04</h2> Self checking</summary>
+
+<p>  S04\task022.py </p>
+<p>  S04\task024.py </p>
+</details>
+
+
+
+<details>
+<summary><h2>Seminar 05 (Урок 5. Рекурсия и алгоритмы)</h2></summary>
+Solutions:
+
+<p> <a href="S05\task016.py" title="Задача 26"> task026.py</a> Посчитать факториал (произведение 1 до N) и треугольное число (сумма чисел от 1 до N) для числа N.</p>
+<p> <a href="S05\task028.py" title="Задача 28"> task028.py </a> Требуется найти в массиве A[N] самый близкий по величине элемент к заданному числу X.</p>
+<p> <a href="S05\taskADD.py" title="Дополнительная"> taskADD.py </a> Требуется найти N-е число Фибоначчи</p>
+
+
+</details>

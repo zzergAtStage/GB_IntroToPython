@@ -13,3 +13,5 @@ for i in range(len(arr)-1):
 arr_count.append(arr[-2] + arr[-1] + arr[0])
 print(arr_count)
 print(max(arr_count))
+print(max(arr_count))
+print(max(arr_count))
