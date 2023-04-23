@@ -122,9 +122,9 @@ Solutions:
 <summary><h2>Seminar 05 (Урок 5. Рекурсия и алгоритмы)</h2></summary>
 Solutions:
 
-<p> <a href="S05\task016.py" title="Задача 26"> task026.py</a> Посчитать факториал (произведение 1 до N) и треугольное число (сумма чисел от 1 до N) для числа N.</p>
-<p> <a href="S05\task028.py" title="Задача 28"> task028.py </a> Требуется найти в массиве A[N] самый близкий по величине элемент к заданному числу X.</p>
-<p> <a href="S05\taskADD.py" title="Дополнительная"> taskADD.py </a> Требуется найти N-е число Фибоначчи</p>
+<p> <a href="GB_IntroToPython/blob/master/S05/task026.py" title="Задача 26"> task026.py</a> Посчитать факториал (произведение 1 до N) и треугольное число (сумма чисел от 1 до N) для числа N.</p>
+<p> <a href="GB_IntroToPython/blob/master/S05/task028.py" title="Задача 28"> task028.py </a> Требуется найти в массиве A[N] самый близкий по величине элемент к заданному числу X.</p>
+<p> <a href="GB_IntroToPython/blob/master/S05/taskADD.py" title="Дополнительная"> taskADD.py </a> Требуется найти N-е число Фибоначчи</p>
 
 
 </details>
