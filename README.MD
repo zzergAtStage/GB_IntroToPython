@@ -128,3 +128,12 @@ Solutions:
 
 
 </details>
+
+
+<details>
+<summary><h2>Seminar 06</h2>Урок 6. Повторение списков (Self checking)</summary>
+
+<p> <a href="GB_IntroToPython/blob/master/S06/task030.py" title="Задача 30"> Заполните массив элементами арифметической прогрессии. </a></p>
+<p> <a href="GB_IntroToPython/blob/master/S06/task032.py" title="Задача 32"> Определить индексы элементов массива (списка), значения которых принадлежат заданному диапазону </a></p>
+
+</details>
