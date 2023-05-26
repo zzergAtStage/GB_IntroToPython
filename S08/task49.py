@@ -1,13 +1,12 @@
 from file_operation import *
 
 
-prefix = ""
-file_name = f'\\S08\\resourse\\{prefix}phonebook.txt'
+
+file_name = get_path('phonebook.txt')
 data_ph = read_file(file_name)
 print(type(data_ph), data_ph)
 
-prefix = 'exp_'
-new_file_name =  file_name
-print(new_file_name)
-write_whole_file(new_file_name, data_ph)
+print(data_ph[0])
+file_name = get_path('exp_phonebook.txt')
+write_whole_file(file_name, data_ph)
     
