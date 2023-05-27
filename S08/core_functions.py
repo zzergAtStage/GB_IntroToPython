@@ -23,12 +23,7 @@ menu_items = {
     8:  'Exit.'
 }
 #menu editing
-menu_editing_items = {
-    1: 'Name',
-    2: 'Surname',
-    3: 'Region code',
-    4: 'Phone number'
-}
+
 def print_menu(menu_items_f):
     for key in menu_items_f.keys():
         print(key, ' - ', menu_items[key])

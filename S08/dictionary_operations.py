@@ -1,6 +1,13 @@
 import re
 from core_functions import *
 
+menu_editing_items = {
+    1: 'Name',
+    2: 'Surname',
+    3: 'Region code',
+    4: 'Phone number'
+}
+
 def print_phone_book(data_set):
     irow = 1
     for sub in data_set:
@@ -40,7 +47,7 @@ def update_subscriber(data_ph,subscriber):
         except:
             print("Wrong input...")
     #editing...
-    print(menu_editing_items)
     print_menu(menu_editing_items)
+    next_step = get_input("Enter your choice: ")
 
         
