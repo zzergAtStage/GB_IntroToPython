@@ -17,9 +17,10 @@ menu_items = {
     2:  'Search subscriber by name/surname', 
     3:  'Search subscribers by region code',
     4:  'Search and edit subscriber',
-    5:  'Reload a phone book',
-    6:  'Save changes to a file',
-    7:  'Exit.'
+    5:  'Delete subscriber',
+    6:  'Reload a phone book',
+    7:  'Save changes to a file',
+    8:  'Exit.'
 }
 #menu editing
 menu_editing_items = {

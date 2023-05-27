@@ -33,8 +33,7 @@ def search_by_code(data_ph, code):
 def update_subscriber(data_ph,subscriber):
     subscriber_rec = search_subscriber(data_ph, subscriber)
     if len(subscriber_rec) > 1:
-        print_phone_book(subscriber_rec)
-        
+        print_phone_book(subscriber_rec) #shows non single data
         try:
             idx = int(input("   Which subscriber would you like to edit: "))
             subscriber_rec = subscriber_rec[idx - 1]
