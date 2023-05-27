@@ -29,6 +29,12 @@ menu_editing_items = {
     3: 'Region code',
     4: 'Phone number'
 }
+#delete conformation
+menu_delete_conformation = {
+    1: 'Yes',
+    2: 'No',
+    3: 'Oh no, let\'s fall back!'
+}
 # THIS code works not as inspected - the keys from menu_items is used as addresses 
 # while iterator goes over second collection!!!!
 # def print_menu(menu_items_f):

@@ -11,7 +11,7 @@ cls()
 file_name = get_path('phonebook.txt')
 data_ph = read_file(file_name)
 print("Data was readed successful")
-data_res = []
+data_res = {}
 #menu
 while True:
     option = ''
@@ -31,6 +31,14 @@ while True:
     elif option == 4:
         subscriber = input("Enter name or surname: ")
         update_subscriber(data_ph, subscriber)
+    elif option == 5:
+        subscriber = input("Enter name or surname: ")
+        delete_subscriber(data_ph,subscriber)    
+    elif option == 6:
+        data_ph = read_file(file_name) #potential risk of crash or file rewriting
+    elif option == 7:
+        file_name = get_path('exp_phonebook.csv')
+        write_whole_file(file_name, data_ph)
     elif option == 8:
         write_whole_file(file_name, data_res)
         print("Arivederchi! ")
