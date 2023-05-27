@@ -1,6 +1,6 @@
 .venv/
 page.html
 page_data.txt
-Redis/
-C:\Users\Father\Documents\Education\GB\02_semestr\Python\S08\resource\phonebook copy.csv
-C:\Users\Father\Documents\Education\GB\02_semestr\Python\S08\resource\phonebook.ods
+.Redis/*
+.S08/resource/phonebook copy.csv
+.S08/resource/phonebook.ods 
