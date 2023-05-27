@@ -54,14 +54,15 @@ def delete_subscriber(data_ph,subscriber):
     #ask conformation
     if len(subscriber_rec) > 1:
         print_phone_book(subscriber_rec) #shows non single data
-        idx = int(input("   Which subscriber would you like to edit: "))
-        subscriber_rec = subscriber_rec[idx]
+        idx = int(input("   Which subscriber would you like to delete: "))
+    subscriber_rec = subscriber_rec[idx]
     print("Subscriber ", data_ph[idx], " well be deleted.")
     print_menu(menu_delete_conformation)
     conformation = int(input("Are you sure?: "))
     while True:
         if conformation == 1:
             del data_ph[idx]
+            print("Goes out...")
             break
         else:
             print("O'key...")

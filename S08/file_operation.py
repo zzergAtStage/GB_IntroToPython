@@ -1,6 +1,6 @@
 import os
 import csv
-import re
+from core_functions import *
 
 #composing a file_path
 def get_path(file_name):
@@ -25,11 +25,19 @@ def read_file(file_name):
 
 def write_whole_file(file_name, clients):
     file_exists = os.path.exists(file_name)
-    if file_exists == False:
-        with open(file_name, "w", newline='' ) as filedata:
-            data_writer = csv.writer(filedata, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-            #header
-            data_writer.writerow(['First Name', 'Last Name', 'Phone Number'])
-            data_writer.writerows(clients)
-    else:
-        print(f"File {file_name} already exists!")
+    headers = ['First Name', 'Last Name', 'Phone Number']
+    while True:
+        if file_exists == False:
+            with open(file_name, "w", newline='' ) as filedata:
+                #header
+                data_writer = csv.writer(filedata, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                data_writer.writerow(headers)
+                for keys, value in clients.items():
+                    data_writer.writerow(value)
+            filedata.close()
+            break
+        else:
+            print(f"File {file_name} already exists! Would you like to overwrite it?")
+            print_menu(menu_delete_conformation)
+            overwrite = int(input())
+            file_exists = False if overwrite == 1 else True

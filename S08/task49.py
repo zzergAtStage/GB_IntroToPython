@@ -44,7 +44,3 @@ while True:
         print("Arivederchi! ")
         exit()
 
-# file_name = get_path('exp_phonebook.csv')
-# write_whole_file(file_name, data_ph)
-
-# data_set = update_subscriber(data_ph, sub)
