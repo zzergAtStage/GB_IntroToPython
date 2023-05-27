@@ -1,12 +1,7 @@
 import re
 from core_functions import *
 
-menu_editing_items = {
-    1: 'Name',
-    2: 'Surname',
-    3: 'Region code',
-    4: 'Phone number'
-}
+
 
 def print_phone_book(data_set):
     irow = 1
@@ -38,7 +33,9 @@ def search_by_code(data_ph, code):
     return data_set
 
 def update_subscriber(data_ph,subscriber):
+    idx = 0
     subscriber_rec = search_subscriber(data_ph, subscriber)
+    print(type(data_ph))
     if len(subscriber_rec) > 1:
         print_phone_book(subscriber_rec) #shows non single data
         try:
@@ -48,6 +45,6 @@ def update_subscriber(data_ph,subscriber):
             print("Wrong input...")
     #editing...
     print_menu(menu_editing_items)
-    next_step = get_input("Enter your choice: ")
-
+    next_step = int(get_input("Enter your choice: "))
+    subscriber[next_step] = get_input(f" New value of [{menu_editing_items[next_step]}]: ")
         

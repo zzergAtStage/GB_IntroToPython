@@ -11,12 +11,14 @@ def get_path(file_name):
 
 def read_file(file_name):
    i_row = 0
-   clients = []
+   client = []
+   clients = {} #changed to a dictionary
    with open(file_name) as filedata:
         reader = csv.reader(filedata,delimiter=" ", quotechar='"')
         for row in reader:
             if i_row != 0: #skip header
-                clients.append(row[0].split(','))
+                client =  row[0].split(',')
+                clients[i_row - 1] = client
             i_row += 1
         
    return clients
