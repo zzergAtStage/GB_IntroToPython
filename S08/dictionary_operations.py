@@ -40,6 +40,7 @@ def update_subscriber(data_ph,subscriber):
         except:
             print("Wrong input...")
     #editing...
+    print(menu_editing_items)
     print_menu(menu_editing_items)
 
         
